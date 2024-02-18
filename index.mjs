@@ -1,6 +1,7 @@
-var express = require('express');
-var axios = require('axios');
-const bodyParser = require('body-parser');
+//var express = require('express');
+import express from "express";
+import axios from "axios";
+
 var app = express();
 var port = 4000;
 var msg ="";
